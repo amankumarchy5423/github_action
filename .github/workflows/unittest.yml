@@ -26,4 +26,4 @@ jobs :
           pip install -r Requirement.txt
 
       - name : run tests
-        run : pytest
+        run : test_ops
